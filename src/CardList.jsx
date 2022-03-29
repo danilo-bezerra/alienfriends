@@ -2,13 +2,6 @@ import Card from './Card';
 import './CardList.css';
 
 const CardList = ({ robots }) => {
-    const cardsArray = robots.map((robot, index) => {
-        return (
-            <Card key={index} name={robot.name}/>
-        )
-    })
-
-    console.log(cardsArray)
     return (
         <div className="CardList">
             {
