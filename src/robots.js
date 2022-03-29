@@ -1,9 +1,9 @@
 export const robots = [
   {
     id: 1,
-    name: 'Leanne Graham',
-    username: 'Bret',
-    email: 'Sincere@april.biz'
+    name: 'Alien DoubT',
+    username: 'Alien',
+    email: 'aliendoubt@alien.com'
   },
   {
     id: 2,
@@ -58,5 +58,11 @@ export const robots = [
     name: 'Clementina DuBuque',
     username: 'Moriah.Stanton',
     email: 'Rey.Padberg@karina.biz'
-  }
+  },
+  {
+    id: 1,
+    name: 'Leanne Graham',
+    username: 'Bret',
+    email: 'Sincere@april.biz'
+  },
 ];
