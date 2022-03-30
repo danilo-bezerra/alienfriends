@@ -1,15 +1,16 @@
-import { robots } from './robots';
+import './SearchBox.css'
 
-const SearchBox = ({setArrayRobots}) => {
+const SearchBox = ({setArrayRobots, originRobots}) => {
     return (
-        <div className='SearchBox pa3'>
+        <div className='SearchBox pa3 pb3'>
             <input 
-            className='pa3 ba b--green bg-lightest-blue br3 bw0 ot0'
+            className='pa3 bg-lightest-blue br3'
             type='text' 
             placeholder='Search a robot'
             onInput={({target}) => {
+                console.log("filtrei")
                 setArrayRobots(() => {
-                    return robots.filter(robot => {
+                    return originRobots.filter(robot => {
                         return robot.name.toLowerCase().includes(target.value.toLowerCase());
                     });
                 })
