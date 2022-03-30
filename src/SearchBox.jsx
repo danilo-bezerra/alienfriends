@@ -4,7 +4,6 @@ const SearchBox = ({setSearField }) => {
 
     return (
         <div className='SearchBox pa3'>
-            <p>{`Valor de num na searchBox: ${'num'}`}</p>
             <input 
             className='pa3 ba b--green bg-lightest-blue br3 bw0 ot0'
             type='text' 
