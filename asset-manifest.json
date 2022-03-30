@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/robofriends/static/css/main.b558a2b6.css",
-    "main.js": "/robofriends/static/js/main.bdcb2c50.js",
-    "static/js/787.32032a02.chunk.js": "/robofriends/static/js/787.32032a02.chunk.js",
-    "index.html": "/robofriends/index.html",
-    "main.b558a2b6.css.map": "/robofriends/static/css/main.b558a2b6.css.map",
-    "main.bdcb2c50.js.map": "/robofriends/static/js/main.bdcb2c50.js.map",
-    "787.32032a02.chunk.js.map": "/robofriends/static/js/787.32032a02.chunk.js.map"
+    "main.css": "/alienfriends/static/css/main.b558a2b6.css",
+    "main.js": "/alienfriends/static/js/main.d32cfce2.js",
+    "static/js/787.32032a02.chunk.js": "/alienfriends/static/js/787.32032a02.chunk.js",
+    "index.html": "/alienfriends/index.html",
+    "main.b558a2b6.css.map": "/alienfriends/static/css/main.b558a2b6.css.map",
+    "main.d32cfce2.js.map": "/alienfriends/static/js/main.d32cfce2.js.map",
+    "787.32032a02.chunk.js.map": "/alienfriends/static/js/787.32032a02.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b558a2b6.css",
-    "static/js/main.bdcb2c50.js"
+    "static/js/main.d32cfce2.js"
   ]
 }
