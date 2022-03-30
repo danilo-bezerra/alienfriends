@@ -1,5 +1,4 @@
 import Card from './Card';
-import './CardList.css';
 
 const CardList = ({ robots }) => {
     return (

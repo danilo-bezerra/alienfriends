@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-
-import CardList from './CardList';
-import { robots } from './robots';
-
 import reportWebVitals from './reportWebVitals';
+
+import App from './App'
 
 ReactDOM.render(
   <>
-    <CardList robots={robots} />
+    <App />
   </>,
   document.getElementById('root')
 );
