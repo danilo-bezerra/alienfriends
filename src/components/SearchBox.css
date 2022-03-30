@@ -6,4 +6,5 @@ input {
 input:focus {
     outline: none;
     box-shadow: inset 0 0 5px 1px rgb(21, 128, 96);
+    transform: scale(1.05);
 }

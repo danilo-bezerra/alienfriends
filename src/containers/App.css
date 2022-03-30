@@ -2,7 +2,13 @@
 
 h1 {
     font-family: 'JetBrains Mono', Arial,  monospace;
-    font-size: 52px;
+    font-size: 4vw;
     color: #DDDDDD;
     letter-spacing: 3px;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 10vw;
+    }
 }
